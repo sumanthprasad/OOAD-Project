@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.quizsystem' // Replace with your package or organization name
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral() // Ensures dependencies are fetched from Maven Central
+}
+
+dependencies {
+    // JUnit 5
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.3'
+    // JUnit 4 (if needed for legacy tests)
+    testImplementation 'junit:junit:4.13.2'
+}
+
+test {
+    useJUnitPlatform() // Use JUnit 5 for running tests
+}
