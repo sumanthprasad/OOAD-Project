@@ -55,3 +55,18 @@ This is a standalone Java application implementing an online quiz system using f
 - Strategy: Response times grow with algorithm complexity.
 - Decorator: Negligible overhead for added features.
 
+## JVM Warm-up
+The application includes a JVM warm-up phase to stabilize performance metrics by minimizing Just-In-Time (JIT) optimizations.
+
+### Prerequisites
+1. **Java Development Kit (JDK)**:
+    - Ensure JDK 17 or higher is installed. Check by running:
+      ```bash
+      java -version
+      ```
+      If not installed, download from [Oracle JDK](https://www.oracle.com/java/technologies/javase-downloads.html).
+
+2. **Gradle**:
+    - This project uses the Gradle wrapper, so no additional Gradle installation is required.
+
+
