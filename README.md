@@ -1,7 +1,6 @@
 
 # Performance Implications of Object-Oriented Design Patterns in High-Scale Applications
 
- 
 ## Overview
 This is a standalone Java application implementing an online quiz system using four key object-oriented design patterns:
 - **Singleton**: Centralized question bank and scoring system.
@@ -29,7 +28,8 @@ This is a standalone Java application implementing an online quiz system using f
 5. **Benchmarking**:
    - Measures memory usage, CPU cycles, and response time.
    - Includes JVM warm-up to ensure consistent results.
-
+## TestCoverage (100%)
+![code_coverage.png](src/main/resources/code_coverage.png)
 
 ## Benchmarking Methodology
 ### Singleton Pattern
@@ -70,3 +70,24 @@ The application includes a JVM warm-up phase to stabilize performance metrics by
     - This project uses the Gradle wrapper, so no additional Gradle installation is required.
 
 
+3. **Environment Setup**:
+   - Clone the repository:
+     ```bash
+     git clone https://github.com/sumanthprasad/OOAD-Project.git
+     ```
+
+## Compiling and Running the Application
+To compile and run the application:
+
+1. **Clean and Build**:
+   ```bash
+   ./gradlew clean build
+
+2. **Run the Application**:
+   ```bash
+   ./gradlew run
+
+3. **Run Tests**
+    ```bash
+   ./gradlew test
+---
